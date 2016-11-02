@@ -26,8 +26,8 @@
         android:id="@+id/images" />
 
     <com.bawei.viewh.Main2Activity
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         my:arcColor="@color/colorAccent"
@@ -36,5 +36,5 @@
         my:sweepAngle="150"
         my:text="曾光春"
         my:textColor="#0f0"
-        my:textSize="14dp" />
+        my:textSize="14sp" />
 </RelativeLayout>
