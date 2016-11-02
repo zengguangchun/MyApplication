@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:my="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -11,8 +12,29 @@
 
     <com.example.aa.myapplication.GuaguaKaView
         android:id="@+id/gk"
-        android:layout_centerInParent="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-         />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_centerInParent="true"
+        android:scaleType="matrix"
+        android:id="@+id/images" />
+
+    <com.bawei.viewh.Main2Activity
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        my:arcColor="@color/colorAccent"
+        my:circleColor="@color/colorPrimary"
+        my:startAngle="20"
+        my:sweepAngle="150"
+        my:text="曾光春"
+        my:textColor="#0f0"
+        my:textSize="14dp" />
 </RelativeLayout>
